@@ -1,0 +1,31 @@
+.main-selector {
+  cursor: pointer;
+  position: relative;
+  margin: 30px auto 0;
+  width: 100px;
+}
+
+.main-selector-title {
+  border: 2px solid gray;
+  padding: 10px 20px;
+}
+
+.main-selector-dropdown {
+  position: absolute;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+  border-bottom: 2px solid gray;
+  border-radius: 0 0 15px 15px;
+  padding: 10px 20px;
+  top: 120%;
+  left: -2px;
+  right: -2px;
+}
+
+.main-selector-item:not(:first-child) {
+  padding-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
